@@ -1,0 +1,39 @@
+.containe{
+    width: 500px;
+    height: 280px;
+    margin: auto;
+}
+.slider_containe{
+    position: relative;
+    height: 100%;
+}
+
+.contaimer_img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    border: 1px solid #eee;
+    overflow: hidden;
+}
+
+.izquierda{
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    left: 32px;
+    font-size: 50px;
+    font-weight: 700;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.derecha{
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    right: 32px;
+    font-size: 50px;
+    font-weight: 700;
+    z-index: 1;
+    cursor: pointer;
+}
